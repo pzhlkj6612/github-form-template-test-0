@@ -26,15 +26,11 @@ body:
         Thank you.
 
         ----
-  - type: markdown
-    attributes:
-      value: |
-        ## Checklist
   - type: checkboxes
     validations:
       required: true
     attributes:
-      label: ""
+      label: "Checklist"
       options:
         - label: "This post is not about a plugin issue, a bug report, a plugin request or a feature request"
         - label: "[I have read the contribution guidelines](https://github.com/streamlink/streamlink/blob/master/CONTRIBUTING.md#contributing-to-streamlink)"
