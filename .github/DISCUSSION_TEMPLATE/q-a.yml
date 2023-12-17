@@ -33,10 +33,10 @@ body:
       label: "## Checklist"
       description: You may select more than one.
       options:
-        - label: This post is not about a plugin issue, a bug report, a plugin request or a feature request
-        - label: [I have read the contribution guidelines](https://github.com/streamlink/streamlink/blob/master/CONTRIBUTING.md#contributing-to-streamlink)
-        - label: I have validated that I'm using the [latest version of Streamlink](https://streamlink.github.io/changelog.html) via the [`--version`](https://streamlink.github.io/cli.html#cmdoption-version) or [`--loglevel=debug`](https://streamlink.github.io/cli.html#cmdoption-loglevel) parameter
-        - label: [I have read the Streamlink documentation and tried looking for answers to my questions](https://streamlink.github.io/)
+        - label: "This post is not about a plugin issue, a bug report, a plugin request or a feature request"
+        - label: "[I have read the contribution guidelines](https://github.com/streamlink/streamlink/blob/master/CONTRIBUTING.md#contributing-to-streamlink)"
+        - label: "I have validated that I'm using the [latest version of Streamlink](https://streamlink.github.io/changelog.html) via the [`--version`](https://streamlink.github.io/cli.html#cmdoption-version) or [`--loglevel=debug`](https://streamlink.github.io/cli.html#cmdoption-loglevel) parameter"
+        - label: "[I have read the Streamlink documentation and tried looking for answers to my questions](https://streamlink.github.io/)"
   - type: textarea
     attributes:
       label: Description
