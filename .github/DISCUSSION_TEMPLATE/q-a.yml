@@ -45,17 +45,11 @@ body:
     attributes:
       value: |
         ### Before submitting
-  - type: checkboxes
-    validations:
-      required: true
-    attributes:
-      label: "Make sure that you have"
-      options:
-        - label: properly filled in the title of this thread (at the very top of this page)
-        - label: checked the rendered text previews to avoid unnecessary formatting errors
-  - type: markdown
-    attributes:
-      value: |
+
+        Make sure that you have
+        - properly filled in the title of this thread (at the very top of this page)
+        - checked the rendered text previews to avoid unnecessary formatting errors
+
         ----
 
         [❤️ Love Streamlink? Please consider supporting the project maintainers. Thanks! ❤️](https://streamlink.github.io/latest/donate.html)
